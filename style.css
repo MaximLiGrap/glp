@@ -1,0 +1,58 @@
+@font-face{ 
+    font-display:swap;
+    font-weight:400;
+    font-family:'Rubik';
+    font-style:normal;
+    src:url(./fonts/rubik-v21-latin_cyrillic-ext_cyrillic-regular.woff2) format("woff2"),
+        url(./fonts/rubik-v21-latin_cyrillic-ext_cyrillic-regular.woff) format("woff")}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Rubik';
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    padding: unset;
+    background-color: unset;
+    border: unset;
+}
+
+table {
+    border-collapse: collapse;
+   }
+
+td, th {
+    border: 1px solid #E4E9EB;
+    padding-left: 22px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-right: 19px;
+}
+
+tr:nth-child(2n) {
+    background-color: #F5F5F5;
+}
+
+td:not(:nth-child(1)) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
+
+th {
+    color: #151A22;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
